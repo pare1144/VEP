@@ -1,0 +1,68 @@
+d:\users\fo6210187\documents\visual studio 2015\Projects\VEP\VEP\bin\Debug\VEP.exe.config
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\bin\Debug\VEP.exe
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\bin\Debug\VEP.pdb
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.csprojResolveAssemblyReference.cache
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\Edit.g.cs
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\MainWindow.g.cs
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\App.g.cs
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP_MarkupCompile.cache
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP_MarkupCompile.lref
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\Edit.baml
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\MainWindow.baml
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.g.resources
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.Properties.Resources.resources
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.csproj.GenerateResource.Cache
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.exe
+D:\Users\FO6210187\Documents\Visual Studio 2015\Projects\VEP\VEP\obj\Debug\VEP.pdb
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.csprojResolveAssemblyReference.cache
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\AdminWindow.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Edit.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\MainWindow.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\addAlarmPage.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\addGroupPage.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\setupNotiPage.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\App.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP_MarkupCompile.cache
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP_MarkupCompile.lref
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\bin\Debug\VEP.exe.config
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\bin\Debug\VEP.exe
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\bin\Debug\VEP.pdb
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\bin\Debug\MySql.Data.DLL
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\AdminWindow.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Edit.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\MainWindow.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\addAlarmPage.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\addGroupPage.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\Views\setupNotiPage.baml
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.g.resources
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.Properties.Resources.resources
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.csproj.GenerateResource.Cache
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.exe
+C:\Users\lalita_du\Downloads\VEP\VEP\VEP\obj\Debug\VEP.pdb
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\bin\Debug\VEP.exe.config
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.exe
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.pdb
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\bin\Debug\VEP.exe
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\bin\Debug\VEP.pdb
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.csprojResolveAssemblyReference.cache
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\AdminWindow.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Edit.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\MainWindow.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\addAlarmPage.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\addGroupPage.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\setupNotiPage.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\App.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP_MarkupCompile.cache
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP_MarkupCompile.lref
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\AdminWindow.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Edit.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\MainWindow.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\addAlarmPage.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\addGroupPage.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\Views\setupNotiPage.baml
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.g.resources
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.Properties.Resources.resources
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\obj\Debug\VEP.csproj.GenerateResource.Cache
+C:\Users\lalita_du\Downloads\VEP_latest\VEP\VEP\bin\Debug\MySql.Data.dll

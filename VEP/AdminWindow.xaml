@@ -1,0 +1,35 @@
+﻿<Window x:Class="VEP.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VEP"
+        xmlns:viewmodel="clr-namespace:VEP.ModelViews"
+        xmlns:views="clr-namespace:VEP.Views"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="350" Width="525">
+    <Window.Resources>
+
+        <DataTemplate x:Name="addGroupTemplate" DataType="{x:Type viewmodel:addGroupModel}">
+            <views:addGroupPage DataContext="{Binding}"></views:addGroupPage>
+        </DataTemplate>
+        <DataTemplate x:Name="addAlarmTemplate" DataType="{x:Type viewmodel:addAlarmModel}">
+            <views:addAlarmPage DataContext="{Binding}"></views:addAlarmPage>
+        </DataTemplate>
+        <DataTemplate x:Name="setupNotiTemplate" DataType="{x:Type viewmodel:setupNotiModel}">
+            <views:setupNotiPage DataContext="{Binding}"></views:setupNotiPage>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left" Height="268" VerticalAlignment="Top" Width="326">
+        <ToolBarPanel Height="319" VerticalAlignment="Top" Background="#FFEAE8E8" Margin="0,0,233,-51">
+            <Button x:Name="addGroupBtn" Content="Add Group ID" HorizontalAlignment="Left" Width="93" Click="addGroupBtn_Click"/>
+            <Button x:Name="addAlarmBtn" Content="Add Alarm" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="93" Click="addAlarmBtn_Click"/>
+            <Button x:Name="setupBtn" Content="Setup Alarm" HorizontalAlignment="Left" Width="93" Click="setupBtn_Click"/>
+
+        </ToolBarPanel>
+        <ContentControl Content="{Binding}" HorizontalAlignment="Left" Margin="93,0,-194,-51" VerticalAlignment="Top" Height="319" Width="427"/>
+
+
+    </Grid>
+
+</Window>

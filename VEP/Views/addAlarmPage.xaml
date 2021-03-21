@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="VEP.Views.addAlarmPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VEP.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="319" d:DesignWidth="427">
+    <Grid Background="Beige">
+        <Label x:Name="label" Content="Setup Alarm" HorizontalAlignment="Left" Margin="113,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="almName" HorizontalAlignment="Left" Height="23" Margin="82,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Alarm name" HorizontalAlignment="Left" Margin="0,49,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="241,52,0,0" VerticalAlignment="Top" Width="75" Click="addBtn_Click"/>
+        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="173" Width="337"  />
+        <Button x:Name="submitBtn" Content="Submit" HorizontalAlignment="Left" Margin="253,289,0,0" VerticalAlignment="Top" Width="94" Click="submitBtn_Click"/>
+    </Grid>
+</UserControl>
