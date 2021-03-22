@@ -6,12 +6,19 @@
              xmlns:local="clr-namespace:VEP.Views"
              mc:Ignorable="d" 
              d:DesignHeight="319" d:DesignWidth="427">
-    <Grid Background="Beige">
-        <Label x:Name="label" Content="Setup Alarm" HorizontalAlignment="Left" Margin="113,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+    <Grid Background="Beige" Margin="0,0,-137,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Add Alarm" HorizontalAlignment="Left" Margin="113,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="121"/>
         <TextBox x:Name="almName" HorizontalAlignment="Left" Height="23" Margin="82,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="almID" HorizontalAlignment="Left" Height="23" Margin="82,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label1" Content="Alarm name" HorizontalAlignment="Left" Margin="0,49,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="241,52,0,0" VerticalAlignment="Top" Width="75" Click="addBtn_Click"/>
-        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="173" Width="337"  />
-        <Button x:Name="submitBtn" Content="Submit" HorizontalAlignment="Left" Margin="253,289,0,0" VerticalAlignment="Top" Width="94" Click="submitBtn_Click"/>
+        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left"  Margin="220,53,0,0" VerticalAlignment="Top" Width="48" Height="19"  Click="addBtn_Click"/>
+        <Button x:Name="editBtn" Content="Edit" HorizontalAlignment="Left" Margin="279,53,0,0" VerticalAlignment="Top" Width="48" Height="19" Click="editBtn_Click"/>
+        <Button x:Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="337,53,0,0" VerticalAlignment="Top" Width="48" Height="19" Click="deleteBtn_Click" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="173" Width="337" SelectionChanged="dataGrid_SelectionChanged"  />
+        <!--<Button x:Name="submitBtn" Content="Submit" HorizontalAlignment="Left" Margin="253,289,0,0" VerticalAlignment="Top" Width="94" Click="submitBtn_Click"/>-->
     </Grid>
 </UserControl>
