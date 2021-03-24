@@ -5,16 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:VEP.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="319" d:DesignWidth="427">
-    <Grid Background="Azure">
+              d:DesignHeight="319" d:DesignWidth="427">
+    <Grid Background="Azure" Margin="0,0,-137,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
         <Label x:Name="label" Content="Setup Alarm" HorizontalAlignment="Left" Margin="167,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <ComboBox x:Name="AlarmcomboBox" HorizontalAlignment="Left" Margin="84,45,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="AlarmcomboBox" HorizontalAlignment="Left" SelectedValuePath="Text" Margin="84,45,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="AlarmcomboBox_SelectionChanged"/>
         <Label x:Name="label1" Content="Alarm name" HorizontalAlignment="Left" Margin="0,41,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Group Name" HorizontalAlignment="Left" Margin="0,72,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="238,49,0,0" VerticalAlignment="Top" Width="75" Height="44" Click="addBtn_Click"/>
-        <ComboBox x:Name="GroupcomboBox" HorizontalAlignment="Left" Margin="84,76,0,0" VerticalAlignment="Top" Width="120"/>
-        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="173" Width="337"  />
-        <Button x:Name="setupBtn" Content="Setup" HorizontalAlignment="Left" Margin="253,289,0,0" VerticalAlignment="Top" Width="94" Click="setupBtn_Click"/>
-    
+        <Button x:Name="addBtn" Content="Add" HorizontalAlignment="Left" Margin="238,49,0,0" VerticalAlignment="Top" Width="48" Height="19" Click="addBtn_Click"/>
+        <Button x:Name="deleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="299,49,0,0" VerticalAlignment="Top" Width="48" Height="19" Click="deleteBtn_Click"/>
+        <ComboBox x:Name="GroupcomboBox" HorizontalAlignment="Left" SelectedValuePath="Text"  Margin="84,76,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ListID" HorizontalAlignment="Left" Height="23" Margin="227,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Height="173" Width="337" SelectionChanged="dataGrid_SelectionChanged"  />
+        <!--<Button x:Name="setupBtn" Content="Setup" HorizontalAlignment="Left" Margin="253,289,0,0" VerticalAlignment="Top" Width="94" Click="setupBtn_Click"/>-->
+
     </Grid>
 </UserControl>

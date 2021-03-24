@@ -201,6 +201,7 @@ namespace VEP.Views
                 almID.Text = contentAlarmID;
                 deleteBtn.IsEnabled = true;
                 editBtn.IsEnabled = true;
+                addBtn.IsEnabled = false;
             }
         }
     }

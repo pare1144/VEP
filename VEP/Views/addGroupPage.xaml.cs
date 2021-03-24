@@ -224,6 +224,7 @@ namespace VEP.Views
                 group_id.Text = contentID;
                 deleteBtn.IsEnabled = true;
                 editBtn.IsEnabled = true;
+                addBtn.IsEnabled = false;
             }
                 
         }
